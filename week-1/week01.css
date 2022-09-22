@@ -67,13 +67,13 @@ html,body{
     display:flex;           /*區塊內文完美置中*/
     align-items: center;    /*操控區塊垂直對齊*/
     justify-content: center; /*水平對齊-置中*/
-    background-color: brown;
+    /*background-color: brown;*/
     font-size: 50px;
 }
 
 .bottom{
     height:100%;
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
     display:flex;            /*操作內部區塊對齊*/
     justify-content: center; /*水平對齊-置中*/
 }
@@ -81,7 +81,7 @@ html,body{
 .blockup{
     width:1200px;
     height:100%;
-    background-color: rgb(212, 250, 190);    
+    /*background-color: rgb(212, 250, 190);    */
 }
 
 .list{
@@ -106,7 +106,7 @@ html,body{
     display:flex;           /*操作內文區塊完美置中*/
     justify-content: center;/*水平置中*/
     align-items: center;    /*垂直置中*/
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     
 }
 
