@@ -1,0 +1,83 @@
+html,body{
+    margin:0px; /*確保填滿畫面邊框*/
+    height:100%;
+    width:100%;
+}
+
+.head{
+    display:flex;/* 此層做為容器讓下一層次的項目水平排列 */
+    height:20px;
+    font-size: 20px;
+    
+}
+
+.headLeft{
+    background-color: bisque;
+    width:50%;
+    display:flex;
+    align-items: center;    /*垂直置中*/
+    
+}
+.headRight{
+    background-color: yellowgreen;
+    width:50%;
+    display:flex;
+    justify-content: right; /*水平對齊-靠右邊*/
+    align-items: center;    /*垂直置中*/
+}
+.item1{
+    width:100px;
+    padding:3px;
+}
+.item2{
+    width:70px;
+    padding:3px;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    /*螢幕小於1200像素，套用這個區塊的CSS*/
+    .list{
+        flex-wrap: wrap; /*往下掉設定*/
+    }
+    .company{
+        width:40%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .product{
+        width:40%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        
+    }
+}
+
+@media (max-width:600px){
+    /*螢幕小於600像素，套用這個區塊的CSS*/
+
+    .company{
+        width:90%;
+        margin: 10px;
+    }
+    .product{
+        width:90%;
+        margin: 10px;
+    }
+    .text{
+        font-size:30px;
+    }
+    .headRight{
+        display:none;
+    }
+    .mobile-menue{
+        display:flex;
+    }
+
+    
+}
