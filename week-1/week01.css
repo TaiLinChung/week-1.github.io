@@ -14,6 +14,7 @@ html,body{
 .headLeft{
     background-color: bisque;
     width:50%;
+    height:100%;
     display:flex;
     align-items: center;    /*垂直置中*/
     
@@ -21,6 +22,7 @@ html,body{
 .headRight{
     background-color: yellowgreen;
     width:50%;
+    height:100%;
     display:flex;
     justify-content: right; /*水平對齊-靠右邊*/
     align-items: center;    /*垂直置中*/
