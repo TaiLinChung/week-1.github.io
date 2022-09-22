@@ -164,11 +164,15 @@ html,body{
     }
     .companyup{
         width:90%;
+        margin-left:5%;
+        margin-right:5%;
         margin-top:5%;
         margin-bottom: 0px;
     }
     .companydown{
         width:90%;
+        margin-left:5%;
+        margin-right:5%;
         margin-top:5%;
         margin-bottom: 0px;
     }
