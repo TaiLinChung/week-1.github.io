@@ -4,14 +4,14 @@ html,body{
     height:100%;
 }
 .head{
-    /*background-color: pink;*/
+    background-color: pink;
     height: 40px;
     display:flex;   /*以此為父層，開放子層區塊對齊*/
 }
 .left{
     width:50%;
     height:100%;
-    /*background-color: green;*/
+    background-color: green;
     font-size: 20px;
     margin:0px;
     align-items: center;    /*操控區塊垂直對齊*/
@@ -23,7 +23,7 @@ html,body{
 .right{
     width:50%;
     height:100%;
-    /*background-color: gold;*/
+    background-color: gold;
     font-size: 20px;
     margin:0px;
     align-items: center;    /*操控區塊垂直對齊*/
@@ -32,7 +32,7 @@ html,body{
 }
 
 .mobile-menue{
-    /*background-color: red;*/
+    background-color: red;
     width:50%;
     justify-content: right;/*水平靠右*/
     align-items: center;    /*垂直置中*/
@@ -42,13 +42,13 @@ html,body{
 
 .itemleft{
     width:100px;
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
     margin:2px;
     
 }
 .item{
     width:50px;
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
     margin:2px;
     
 }
@@ -67,13 +67,13 @@ html,body{
     display:flex;           /*區塊內文完美置中*/
     align-items: center;    /*操控區塊垂直對齊*/
     justify-content: center; /*水平對齊-置中*/
-    /*background-color: brown;*/
+    background-color: brown;
     font-size: 50px;
 }
 
 .bottom{
     height:100%;
-    /*background-color: blanchedalmond;*/
+    background-color: blanchedalmond;
     display:flex;            /*操作內部區塊對齊*/
     justify-content: center; /*水平對齊-置中*/
 }
@@ -81,7 +81,7 @@ html,body{
 .blockup{
     width:1200px;
     height:100%;
-    /*background-color: rgb(212, 250, 190);    */
+    background-color: rgb(212, 250, 190);   
 }
 
 .list{
@@ -106,7 +106,7 @@ html,body{
     display:flex;           /*操作內文區塊完美置中*/
     justify-content: center;/*水平置中*/
     align-items: center;    /*垂直置中*/
-    /*background-color: aliceblue;*/
+    background-color: aliceblue;
     
 }
 
